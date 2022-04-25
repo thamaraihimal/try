@@ -1,0 +1,42 @@
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/lovw.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* opacity: 0.7; */
+    
+}
+
+
+p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+}
+span{
+    font-size: 70px ;
+}
+button{
+    position: absolute;
+    border: 2px solid white;
+    padding: 20px;
+    left: 25%;
+    top: 65%;
+    display:inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 3px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background:none;
+    color: white;
+    /* opacity: 0.6; */
+}
+ button:hover{
+background-color: rgba(0, 0, 0, 0.707);
+color:white;
+} 
